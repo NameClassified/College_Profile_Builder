@@ -68,4 +68,14 @@ class DetailViewController: UIViewController, UINavigationControllerDelegate, UI
         self.view.endEditing(true)
     }
     
+    @IBAction func onMapButtonTapped(sender: UIButton) {
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let dvc = segue.destinationViewController as! MapViewController
+        dvc.mapAddress = college.name
+        
+    }
+    
+    
 }
