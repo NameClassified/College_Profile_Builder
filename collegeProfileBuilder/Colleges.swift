@@ -13,7 +13,7 @@ class Colleges: NSObject {
     var name = ""
     var state = ""
     var size = 0
-    var webURL = NSURL(string: "http://www.google.com")
+    var webURL = NSURL(string: "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
     var image = UIImage(named: "default")
     
     convenience init(name: String, state: String, size: Int, image: UIImage, webURL: NSURL) {
