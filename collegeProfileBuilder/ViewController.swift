@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         editButton.tag = 0
         colleges.append(Colleges(name: "MIT", state: "Massachusetts", size: 4512, image: UIImage(named: "mit logo")!, webURL: NSURL(string: "http://web.mit.edu/")!))
        
-        colleges.append(Colleges(name: "Stanford", state: "California", size: 7019, image: UIImage(named: "stanford logo")!, webURL: NSURL(string: "https://www.stanford.edu/")!))
+        colleges.append(Colleges(name: "Stanford University", state: "California", size: 7019, image: UIImage(named: "stanford logo")!, webURL: NSURL(string: "https://www.stanford.edu/")!))
         
         colleges.append(Colleges(name: "USC", state: "California", size: 19000, image: UIImage(named: "usc logo")!, webURL: NSURL(string: "http://www.usc.edu/")!))
         
